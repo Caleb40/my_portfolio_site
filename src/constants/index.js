@@ -27,7 +27,7 @@ import {
   gericht,
   instinctvas,
   adolaai,
-  demogpt3
+  demogpt3,
 } from "../assets";
 
 export const navLinks = [
@@ -135,7 +135,6 @@ const technologies = [
   },
 ];
 
-
 const experiences = [
   {
     title: "Backend Developer (Django)",
@@ -228,7 +227,6 @@ const experiences = [
   },
 ];
 
-
 const testimonials = [
   {
     testimonial:
@@ -252,7 +250,6 @@ const testimonials = [
     company: "Gskills Computer Schools",
   },
 ];
-
 
 const projects = [
   {
@@ -295,7 +292,7 @@ const projects = [
       },
     ],
     image: toptierbinary,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://toptierbinary.com",
   },
   {
     name: "InstinctVAS",
@@ -316,7 +313,7 @@ const projects = [
       },
     ],
     image: instinctvas,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://instinctvas.com/",
   },
   {
     name: "GPT-3 Landing Page",
@@ -337,7 +334,7 @@ const projects = [
       },
     ],
     image: demogpt3,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://test-gpt3-landing-page.netlify.app/",
   },
   {
     name: "Gericht Restaurant",
@@ -358,7 +355,7 @@ const projects = [
       },
     ],
     image: gericht,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://gerichttrestaurant.netlify.app/",
   },
   {
     name: "Adola AI Summarizer",
@@ -379,11 +376,8 @@ const projects = [
       },
     ],
     image: adolaai,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://adolaai.netlify.app/",
   },
 ];
-
-
-
 
 export { services, technologies, experiences, testimonials, projects };
